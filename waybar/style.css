@@ -1,0 +1,115 @@
+@import '/home/pective/.cache/wal/colors-waybar.css';
+
+* {
+    border: 0px;
+    border-radius: 0;
+    font-family: "FiraCode Nerd Font Mono";
+    font-weight: bold;
+    font-size: 17px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    color: @foreground;
+}
+
+tooltip {
+    background: @background;
+    border-radius: 10px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+    padding: 5px;
+    color: @color10;
+    margin-right: 5px;
+}
+
+#workspaces button.active {
+    color: @foreground;
+}
+
+#workspaces button.focused {
+    color: @foreground;
+    background: @background;
+    border-radius: 10px;
+}
+
+#workspaces button.urgent {
+    color: @color12;
+    background: @background;
+    border-radius: 10px;
+}
+
+#workspaces button:hover {
+    background: @background;
+    color: @color10;
+    border-radius: 10px;
+}
+
+#window,
+#clock,
+#pulseaudio,
+#workspaces,
+#custom-launch_rofi,
+#tray {
+    background: @background;
+    opacity: 0.95;
+    padding: 0px 10px;
+    margin-top: 10px;
+    border: 1px solid @color0;
+}
+
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#workspaces {
+    background: @background;
+    border-radius: 10px;
+    margin-left: 5px;
+    padding-right: 0px;
+    padding-left: 5px;
+}
+
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    color: @color9;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+    border-right: 0px;
+}
+
+#pulseaudio {
+    color: @color7;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#pulseaudio.microphone {
+    color: @color8;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 0px 10px 10px 0px;
+    margin-right: 10px;
+}
+
+#custom-launch_rofi {
+    color: @color9;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-right: 0px;
+    font-size: 25px;
+}
