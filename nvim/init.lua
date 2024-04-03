@@ -190,22 +190,13 @@ require('lazy').setup({
   },
 
   {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'pywal'
-    end,
-  },
-
-  {
     -- Set lualine as statusline
     'nvim-lualine/lualine.nvim',
     -- See `:help lualine.txt`
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'pywal',
+        theme = 'gruvbox',
         component_separators = '|',
         section_separators = '',
       },
@@ -663,3 +654,5 @@ cmp.setup {
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
+vim.o.background = "dark" -- or "light" for light mode
+vim.cmd([[colorscheme gruvbox]])
