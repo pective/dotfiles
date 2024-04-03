@@ -1,5 +1,5 @@
 #!/bin/env bash
 
-killall -q polybar
+pkill polybar
 
 polybar -r bar
