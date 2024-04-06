@@ -1,5 +1,6 @@
 exec pipewire &
 exec pipewire-pulse &
-exec wireplumber
+exec wireplumber &
 
-/usr/bin/bspwm
+~/.fehbg
+exec bspwm
