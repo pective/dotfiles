@@ -1,5 +1,5 @@
 import = [
-	"~/.config/alacritty/themes/gruvbox.toml"
+	"~/.config/alacritty/themes/gruvboxmat.toml"
 ]
 
 [font]
