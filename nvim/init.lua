@@ -654,5 +654,4 @@ cmp.setup {
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
-vim.g.gruvbox_material_background = 'hard'
-vim.cmd([[colorscheme gruvbox-material]])
+vim.cmd([[colorscheme gruvbox]])
