@@ -6,5 +6,6 @@ import = [
 size=14.0
 
 [font.normal]
-family = "Jetbrains Mono Nerd Font"
+# family = "TempleOS"
+family = "MonaspiceNe Nerd Font Mono"
 style = "Regular"
